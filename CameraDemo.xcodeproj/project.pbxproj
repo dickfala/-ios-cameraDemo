@@ -22,6 +22,8 @@
 		1AEC04DE19768023008B3F2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEC04BD19768023008B3F2C /* UIKit.framework */; };
 		1AEC04E619768023008B3F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC04E419768023008B3F2C /* InfoPlist.strings */; };
 		1AEC04E819768023008B3F2C /* CameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC04E719768023008B3F2C /* CameraDemoTests.m */; };
+		1AEC04F21976807A008B3F2C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEC04F11976807A008B3F2C /* AssetsLibrary.framework */; };
+		1AEC04F419768082008B3F2C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEC04F319768082008B3F2C /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		1AEC04E319768023008B3F2C /* CameraDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1AEC04E519768023008B3F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AEC04E719768023008B3F2C /* CameraDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraDemoTests.m; sourceTree = "<group>"; };
+		1AEC04F11976807A008B3F2C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1AEC04F319768082008B3F2C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEC04F419768082008B3F2C /* MobileCoreServices.framework in Frameworks */,
+				1AEC04F21976807A008B3F2C /* AssetsLibrary.framework in Frameworks */,
 				1AEC04BC19768023008B3F2C /* CoreGraphics.framework in Frameworks */,
 				1AEC04BE19768023008B3F2C /* UIKit.framework in Frameworks */,
 				1AEC04BA19768023008B3F2C /* Foundation.framework in Frameworks */,
@@ -103,6 +109,8 @@
 		1AEC04B819768023008B3F2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AEC04F319768082008B3F2C /* MobileCoreServices.framework */,
+				1AEC04F11976807A008B3F2C /* AssetsLibrary.framework */,
 				1AEC04B919768023008B3F2C /* Foundation.framework */,
 				1AEC04BB19768023008B3F2C /* CoreGraphics.framework */,
 				1AEC04BD19768023008B3F2C /* UIKit.framework */,
